@@ -1,4 +1,5 @@
-﻿namespace WForm2
+﻿
+namespace WForm2
 {
     partial class NoteForm
     {
@@ -28,37 +29,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             listBox1 = new ListBox();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            input_note_textBox = new TextBox();
             label3 = new Label();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            input_date_textBox = new TextBox();
+            remove_note_btn = new Button();
+            add_task_btn = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // listBox1
             // 
             listBox1.BackColor = Color.Bisque;
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(105, 80);
+            listBox1.ItemHeight = 14;
+            listBox1.Location = new Point(105, 75);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(334, 394);
+            listBox1.Size = new Size(334, 368);
             listBox1.TabIndex = 0;
+            listBox1.SelectedIndexChanged += ListBox1_SelectedIndexChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Tomato;
             label1.Font = new Font("Rockwell", 16F);
-            label1.Location = new Point(223, 45);
+            label1.Location = new Point(223, 42);
             label1.Name = "label1";
             label1.Size = new Size(70, 25);
             label1.TabIndex = 1;
             label1.Text = "Tasks";
-            label1.Click += this.label1_Click;
             // 
             // label2
             // 
@@ -66,19 +69,19 @@
             label2.BackColor = SystemColors.ActiveCaption;
             label2.BorderStyle = BorderStyle.FixedSingle;
             label2.Font = new Font("Rockwell", 15.75F);
-            label2.Location = new Point(545, 45);
+            label2.Location = new Point(545, 42);
             label2.Name = "label2";
             label2.Size = new Size(109, 25);
             label2.TabIndex = 2;
             label2.Text = "Input note";
             // 
-            // textBox1
+            // input_note_textBox
             // 
-            textBox1.Location = new Point(681, 48);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(179, 23);
-            textBox1.TabIndex = 3;
-            textBox1.TextChanged += this.textBox1_TextChanged;
+            input_note_textBox.Location = new Point(681, 45);
+            input_note_textBox.Name = "input_note_textBox";
+            input_note_textBox.Size = new Size(179, 23);
+            input_note_textBox.TabIndex = 3;
+            input_note_textBox.TextChanged += textBox1_TextChanged;
             // 
             // label3
             // 
@@ -86,52 +89,59 @@
             label3.BackColor = SystemColors.ActiveCaption;
             label3.BorderStyle = BorderStyle.FixedSingle;
             label3.Font = new Font("Rockwell", 15.75F);
-            label3.Location = new Point(545, 96);
+            label3.Location = new Point(545, 90);
             label3.Name = "label3";
             label3.Size = new Size(113, 25);
             label3.TabIndex = 4;
             label3.Text = "Input desc";
             // 
-            // textBox2
+            // input_date_textBox
             // 
-            textBox2.Location = new Point(681, 99);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(179, 23);
-            textBox2.TabIndex = 5;
+            input_date_textBox.Location = new Point(681, 92);
+            input_date_textBox.Name = "input_date_textBox";
+            input_date_textBox.Size = new Size(179, 23);
+            input_date_textBox.TabIndex = 5;
             // 
-            // button1
+            // remove_note_btn
             // 
-            button1.BackColor = Color.LightCoral;
-            button1.Font = new Font("Century Gothic", 15.75F);
-            button1.Location = new Point(464, 290);
-            button1.Name = "button1";
-            button1.Size = new Size(174, 40);
-            button1.TabIndex = 6;
-            button1.Text = "Remove note";
-            button1.UseVisualStyleBackColor = false;
+            remove_note_btn.BackColor = Color.LightCoral;
+            remove_note_btn.Enabled = false;
+            remove_note_btn.Font = new Font("Century Gothic", 15.75F);
+            remove_note_btn.Location = new Point(464, 271);
+            remove_note_btn.Name = "remove_note_btn";
+            remove_note_btn.Size = new Size(174, 37);
+            remove_note_btn.TabIndex = 6;
+            remove_note_btn.Text = "Remove note";
+            remove_note_btn.UseVisualStyleBackColor = false;
+            remove_note_btn.Click += Remove_note_btn_Click;
             // 
-            // button2
+            // add_task_btn
             // 
-            button2.BackColor = Color.LightGreen;
-            button2.Font = new Font("Century Gothic", 15.75F);
-            button2.Location = new Point(464, 353);
-            button2.Name = "button2";
-            button2.Size = new Size(190, 41);
-            button2.TabIndex = 7;
-            button2.Text = "Task completed";
-            button2.UseVisualStyleBackColor = false;
+            add_task_btn.BackColor = Color.LightGreen;
+            add_task_btn.Font = new Font("Century Gothic", 15.75F);
+            add_task_btn.Location = new Point(545, 148);
+            add_task_btn.Name = "add_task_btn";
+            add_task_btn.Size = new Size(315, 38);
+            add_task_btn.TabIndex = 7;
+            add_task_btn.Text = "Task completed";
+            add_task_btn.UseVisualStyleBackColor = false;
+            add_task_btn.Click += Add_task_btn_Click;
+            // 
+            // timer1
+            // 
+            timer1.Tick += Timer1_Tick;
             // 
             // NoteForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(7F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Info;
-            ClientSize = new Size(949, 542);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
+            BackColor = Color.DarkSalmon;
+            ClientSize = new Size(949, 506);
+            Controls.Add(add_task_btn);
+            Controls.Add(remove_note_btn);
+            Controls.Add(input_date_textBox);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(input_note_textBox);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(listBox1);
@@ -142,15 +152,24 @@
             PerformLayout();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+        }
+
         #endregion
 
         private ListBox listBox1;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox input_note_textBox;
         private Label label3;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button2;
+        private TextBox input_date_textBox;
+        private Button remove_note_btn;
+        private Button add_task_btn;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -1,0 +1,17 @@
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\bin\Debug\net8.0-windows\WForm2.exe
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\bin\Debug\net8.0-windows\WForm2.deps.json
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\bin\Debug\net8.0-windows\WForm2.runtimeconfig.json
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\bin\Debug\net8.0-windows\WForm2.dll
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\bin\Debug\net8.0-windows\WForm2.pdb
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.NoteForm.resources
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.csproj.GenerateResource.cache
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.AssemblyInfoInputs.cache
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.AssemblyInfo.cs
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.csproj.CoreCompileInputs.cache
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.sourcelink.json
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.dll
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\refint\WForm2.dll
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.pdb
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\WForm2.genruntimeconfig.cache
+C:\Users\Богдан\Desktop\Git\C-_Classwork_4\WForm2\WForm2\obj\Debug\net8.0-windows\ref\WForm2.dll
