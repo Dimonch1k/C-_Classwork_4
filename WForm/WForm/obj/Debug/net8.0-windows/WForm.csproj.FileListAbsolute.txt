@@ -1,0 +1,16 @@
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.Form1.resources
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.csproj.GenerateResource.cache
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.AssemblyInfoInputs.cache
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.AssemblyInfo.cs
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.csproj.CoreCompileInputs.cache
+C:\Users\Support\Desktop\Git\WForm\WForm\bin\Debug\net8.0-windows\WForm.exe
+C:\Users\Support\Desktop\Git\WForm\WForm\bin\Debug\net8.0-windows\WForm.deps.json
+C:\Users\Support\Desktop\Git\WForm\WForm\bin\Debug\net8.0-windows\WForm.runtimeconfig.json
+C:\Users\Support\Desktop\Git\WForm\WForm\bin\Debug\net8.0-windows\WForm.dll
+C:\Users\Support\Desktop\Git\WForm\WForm\bin\Debug\net8.0-windows\WForm.pdb
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.dll
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\refint\WForm.dll
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.pdb
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\WForm.genruntimeconfig.cache
+C:\Users\Support\Desktop\Git\WForm\WForm\obj\Debug\net8.0-windows\ref\WForm.dll
